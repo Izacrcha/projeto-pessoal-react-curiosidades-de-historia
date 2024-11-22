@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-color: #e1f7d5; /* Cor suave de fundo */
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    overflow: hidden;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; /* Transição suave */
+    transform: scale(0.98);
+  }
+  
+  .app-container:hover {
+    transform: scale(1); /* Aumenta levemente ao passar o mouse */
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    color: #4caf50;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px); /* Efeito de "elevação" no hover */
+  }
+  
+  button:active {
+    transform: translateY(2px); /* Efeito de pressão ao clicar */
+  }
+  
+  .curiosity {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+  }
+  
